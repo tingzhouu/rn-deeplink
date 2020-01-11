@@ -194,7 +194,6 @@
 				BFF2BC7A12025F3862B20FF8 /* Pods-tingzhoudeeplinkTests.debug.xcconfig */,
 				3DDFE3341D373E226AE9F2E7 /* Pods-tingzhoudeeplinkTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +307,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
