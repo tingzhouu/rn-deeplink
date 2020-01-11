@@ -7,6 +7,6 @@ import ChatScreen from './ChatScreen';
 export default SimpleApp = createAppContainer(
   createStackNavigator({
     Home: { screen: HomeScreen },
-    Chat: { screen: ChatScreen },
+    Chat: { screen: ChatScreen, path: 'chat/:user' },
   })
 );
